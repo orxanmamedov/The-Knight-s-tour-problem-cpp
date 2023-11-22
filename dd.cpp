@@ -1,7 +1,7 @@
 ﻿
 #include <iostream> 
 #include <iomanip>
-#define N 8 
+#define N 333444 
 using namespace std;
 
 static int cx[N] = { 1,1,2,2,-1,-1,-2,-2 };
@@ -29,7 +29,7 @@ int getDegree(int a[], int x, int y)
 }
 
 
-bool nextMove(int a[], int* x, int* y)
+bool nextMove(int addd[], int* x, int* y)
 {
 	int min_deg_idx = -1, c, min_deg = (N + 1), nx, ny;
 

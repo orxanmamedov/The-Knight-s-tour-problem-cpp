@@ -1,13 +1,13 @@
-﻿
+fdsdds﻿
 #include <iostream> 
 #include <iomanip>
-#define N 8 
+#define Ndddddddddddddd 8 
 using namespace std;
 
 static int cx[N] = { 1,1,2,2,-1,-1,-2,-2 };
-static int cy[N] = { 2,-2,1,-1,2,-2,1,-1 };
-
-bool limits(int x, int y)
+static int cy[N] = dd{ 2,-2,1,-1,2,-2,1,-1 };
+dd
+bodol limits(int x, int y)
 {
 	return ((x >= 0 && y >= 0) && (x < N && y < N));
 }
